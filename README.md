@@ -26,9 +26,10 @@ NOTE: ODBC drivers should match the same architecture as Microsoft Access.  So i
 ## System Requirements:
 The following software is required to be installed to use this Microsoft Access Add-In tool:
 
-1. Microsoft Access 2007/2010/2013/2016/2019/2021/2024/365 [More Info](https://www.microsoft.com/en-us/microsoft-365/access)
+1. Microsoft Access 2007/2010/2013/2016/2019/2021/2024/365 or Higher [More Info](https://www.microsoft.com/en-us/microsoft-365/access)
 2. SQLite Database System [More Info](https://sqlite.org/)
 3. An ODBC Driver for SQLite [More Info](http://www.ch-werner.de/sqliteodbc/)
+
 NOTE: ODBC drivers should match the same architecture as Microsoft Access.  So if you have 64-bit Access, use the 64-bit ODBC driver.
 
 
