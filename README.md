@@ -1,4 +1,4 @@
-# The Microsoft Access Link To SQLite GUI Add-In
+# The Microsoft Access Link To SQLite Table GUI Add-In
 This 100% Free, Open Source Microsoft Access Link-to-SQLite GUI Add-In tool was designed to help create MS Access linked tables to any SQLite database file.  This tool provides a GUI for connecting to the SQLite database and allows the user to select exactly which SQLite tables to link to your Access database.  The tool creates those linked-tables, creates the connection string to SQLite, and establishes the connection to those SQLite tables in you Access database.  Once the SQLite tables are linked in your Access database, you will be able to add, query, edit, and delete records in your SQLite tables directly from your Microsoft Access database application.  
 
 *** NOTE ***
@@ -93,7 +93,7 @@ A **GREAT BIG THANKS** to the following contributors to this project:
 
 5. [Crystal Long](https://msaccessgurus.com/) - For being my biggest fan, especially when it comes to my work involving Microsoft Access!
 
-6. [The Access Users Groups](https://accessusergroups.org/) - A HUGE THANKS to the Access Pacific and Access Express Australia for inspiring me to use Access more and for always giving me ideas for database apps to create! 
+6. [The Access Users Groups](https://accessusergroups.org/) - A HUGE THANKS to the Access Pacific and Access Express Australia groups for inspiring me to use Access more and for always giving me ideas for database apps to create! 
 
 7. [The AccGPT Tool for MS Access](https://accgpt.net) - For helping me build this tool in less than one day!
 
