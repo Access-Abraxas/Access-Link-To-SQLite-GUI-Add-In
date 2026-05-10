@@ -69,13 +69,18 @@ To use this tool once it has been installed:
 
 1. Open any Access database in Microsoft Access.
 2. On the "Database Tools" ribbon, click the "Add-Ins" option drop down, and choose the "Link to SQLite Database" option.  
+
+![Microsoft Access Add-Ins Manager Menu](https://github.com/Access-Abraxas/Access-Link-To-SQLite-GUI-Add-In/blob/main/Screenshots/Microsoft_Access_Add-Ins_Link_Sqlite_menu.jpg)
+
 3. The "Access Link to SQLite" GUI form will open.
+
+![The Microsoft Access Link-to-SQLite Add-In form](https://github.com/Access-Abraxas/Access-Link-To-SQLite-GUI-Add-In/blob/main/Screenshots/Access_Link_To_SQLite_GUI_Add-In_Form.jpg)
 
 
 ## Project Resources:
 Here is a list of some resources available for this project:
 
-1. Log Bugs and Issues against in our [Issues Database Here](https://github.com/Access-Abraxas/Access-Link-To-SQLite-GUI-Add-In/issues)
+1. Log bugs and issues in our [Issues Database Here](https://github.com/Access-Abraxas/Access-Link-To-SQLite-GUI-Add-In/issues)
 
 2. Discussions about this project can be created in our [Discussion Forum Here](https://github.com/Access-Abraxas/Access-Link-To-SQLite-GUI-Add-In/discussions)
 
