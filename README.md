@@ -1,6 +1,8 @@
 # The Microsoft Access Link To SQLite GUI Add-In
 This 100% Free, Open Source Microsoft Access Link-to-SQLite GUI Add-In tool was designed to help create MS Access linked tables to any SQLite database file.  This tool provides a GUI for connecting to the SQLite database and allows the user to select exactly which SQLite tables to link to your Access database.  The tool creates those linked-tables, creates the connection string to SQLite, and establishes the connection to those SQLite tables in you Access database.  Once the SQLite tables are linked in your Access database, you will be able to add, query, edit, and delete records in your SQLite tables directly from your Microsoft Access database application.  
 
+*** NOTE ***
+Using the Access Link-to-SQLite Add-In tool requires a ODBC driver for SQLite installed on your system.  See the "Where to Download" below for information about where to get a SQLite ODBC driver for Windows, if you don't have one already. 
 
 ## Screenshots of the Access Link-to-SQLite GUI Add-In Tool:
 A screenshot of the main form used within the Microsoft Access Link-to-SQLite GUI Add-In tool:
@@ -12,6 +14,22 @@ A screenshot of the main form used within the Microsoft Access Link-to-SQLite GU
 Download the FREE Microsoft Access Link-to-SQLite GUI Add-In (.accda file) here: [Latest ACCDA Download](https://github.com/Access-Abraxas/Access-Link-To-SQLite-GUI-Add-In/raw/refs/heads/main/ACCDA/SqliteConnector.accda)
 
 Or download the latest Stable Release package here: [Latest Full Release Package](https://github.com/Access-Abraxas/Access-Link-To-SQLite-GUI-Add-In/releases)
+
+If you don't have an SQLite ODBC driver already, you can download one [from here](http://www.ch-werner.de/sqliteodbc/)
+
+- The 64-Bit SQLite ODBC driver can be [downloaded here](http://www.ch-werner.de/sqliteodbc/sqliteodbc_w64.exe)
+- The 32-Bit SQLite ODBC driver can be [downloaded here](http://www.ch-werner.de/sqliteodbc/sqliteodbc.exe)
+
+NOTE: ODBC drivers should match the same architecture as Microsoft Access.  So if you have 64-bit Access, use the 64-bit ODBC driver.
+
+
+## System Requirements:
+The following software is required to be installed to use this Microsoft Access Add-In tool:
+
+1. Microsoft Access 2007/2010/2013/2016/2019/2021/2024/365 [More Info](https://www.microsoft.com/en-us/microsoft-365/access)
+2. SQLite Database System [More Info](https://sqlite.org/)
+3. An ODBC Driver for SQLite [More Info](http://www.ch-werner.de/sqliteodbc/)
+NOTE: ODBC drivers should match the same architecture as Microsoft Access.  So if you have 64-bit Access, use the 64-bit ODBC driver.
 
 
 ## How to Install:
@@ -53,16 +71,34 @@ To use this tool once it has been installed:
 3. The "Access Link to SQLite" GUI form will open.
 
 
+## Project Resources:
+Here is a list of some resources available for this project:
+
+1. Log Bugs and Issues against in our [Issues Database Here](https://github.com/Access-Abraxas/Access-Link-To-SQLite-GUI-Add-In/issues)
+
+2. Discussions about this project can be created in our [Discussion Forum Here](https://github.com/Access-Abraxas/Access-Link-To-SQLite-GUI-Add-In/discussions)
+
+
 ## Project Contributors:
 A **GREAT BIG THANKS** to the following contributors to this project:
 
-1. [Albert Kallal](http://www.kallal.ca) - For inspiring me to use SQLite databases more.
+1. [The Microsoft Access Team](https://www.microsoft.com/en-us/microsoft-365/access) - A HUGE THANKS for creating the most AMAZING and versatile database product ever to exist, it has changed my life FOREVER!!!
 
-2. [The AccGPT Tool for MS Access](https://accgpt.net) - For helping me build this tool in less than one day.
+2. [The SQLite Team](https://sqlite.org/crew.html) - Another HUGE THANKS for creating such an AMAZING database system too, a system which is up and coming in this brave new world and I'm loving it!
 
-3. [The Access Users Groups](https://accessusergroups.org/) - A HUGE THANKS to the Access Pacific and Access Express Australia for inspiring me to use Access more. 
+3. [Christian Werner](http://www.ch-werner.de/) - Thank you for the GREAT SQLite ODBC drivers for Windows!
 
-4. [Geoffrey Griffith](https://imaginethought.com/site/) - For my work to create this 100% FREE tool to help people connect Microsoft Access to their SQLite data.
+4. [Albert Kallal](http://www.kallal.ca) - Thanks for inspiring me to use SQLite databases more!
+
+5. [Crystal Long](https://msaccessgurus.com/) - For being my biggest fan, especially when it comes to my work involving Microsoft Access!
+
+6. [The Access Users Groups](https://accessusergroups.org/) - A HUGE THANKS to the Access Pacific and Access Express Australia for inspiring me to use Access more and for always giving me ideas for database apps to create! 
+
+7. [The AccGPT Tool for MS Access](https://accgpt.net) - For helping me build this tool in less than one day!
+
+8. [The Access Add-In Helper Tool](https://github.com/Access-Abraxas/Access-Add-In-Helper) - For helping me create this Add-In from my initial Link-to-SQLite Access App in just a few minutes!
+ 
+9. [Geoffrey Griffith](https://imaginethought.com/site/) - For my work to create this 100% FREE tool to help people connect Microsoft Access to their SQLite data.
 
 
 ## Other Free Microsoft Access Tools:
