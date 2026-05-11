@@ -177,7 +177,11 @@ On Error GoTo HandleErrors
     
     While (Not rs.EOF) And (Not rs.BOF)
         sTables = rs.Fields(0)
-        If (sTables <> "sqlite_sequence") Then ' Ignore the "sqlite_sequence"
+        If Me.chkIgnore Then
+            If (sTables <> "sqlite_sequence") Then ' Ignore the "sqlite_sequence"
+                Me.ltsTablesInDb.AddItem sTables
+            End If
+        Else
             Me.ltsTablesInDb.AddItem sTables
         End If
         rs.MoveNext
