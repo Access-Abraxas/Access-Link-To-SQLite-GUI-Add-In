@@ -22,8 +22,8 @@ Or download the latest Stable Release package here: [Latest Full Release Package
 
 If you don't have an SQLite ODBC driver already, you can download one [from GitHub here](https://github.com/Access-Abraxas/Access-Link-To-SQLite-GUI-Add-In/tree/main/ODBC)
 
-- The 64-Bit SQLite ODBC driver can be [downloaded here](https://github.com/Access-Abraxas/Access-Link-To-SQLite-GUI-Add-In/blob/main/ODBC/sqliteodbc_w64.exe)
-- The 32-Bit SQLite ODBC driver can be [downloaded here](https://github.com/Access-Abraxas/Access-Link-To-SQLite-GUI-Add-In/blob/main/ODBC/sqliteodbc.exe)
+- The 64-Bit SQLite ODBC driver can be [downloaded here](https://github.com/Access-Abraxas/Access-Link-To-SQLite-GUI-Add-In/raw/refs/heads/main/ODBC/sqliteodbc_w64.exe)
+- The 32-Bit SQLite ODBC driver can be [downloaded here](https://github.com/Access-Abraxas/Access-Link-To-SQLite-GUI-Add-In/raw/refs/heads/main/ODBC/sqliteodbc.exe)
 
 NOTE: ODBC drivers should match the same architecture as Microsoft Access.  So if you have 64-bit Access, use the 64-bit ODBC driver.
 
