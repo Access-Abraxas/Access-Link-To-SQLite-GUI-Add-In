@@ -10,7 +10,7 @@ Using the Access Link-to-SQLite Add-In tool requires a ODBC driver for SQLite in
 
 A screenshot of the main form used within the Microsoft Access Link-to-SQLite GUI Add-In tool:
 
-![Screenshot of the Microsoft Access Link-to-SQLite GUI Add-In form](https://github.com/Access-Abraxas/Access-Link-To-SQLite-GUI-Add-In/blob/main/Screenshots/Access_Link_To_SQLite_GUI_Add-In_Form.jpg)
+![Screenshot of the Microsoft Access Link-to-SQLite GUI Add-In form](https://github.com/Access-Abraxas/Access-Link-To-SQLite-GUI-Add-In/blob/main/Screenshots/Access_Link_To_SQLite_GUI_Add-In_Form_wData.jpg)
 
 
 
@@ -20,12 +20,14 @@ Download the FREE Microsoft Access Link-to-SQLite GUI Add-In (.accda file) here:
 
 Or download the latest Stable Release package here: [Latest Full Release Package](https://github.com/Access-Abraxas/Access-Link-To-SQLite-GUI-Add-In/releases)
 
-If you don't have an SQLite ODBC driver already, you can download one [from here](http://www.ch-werner.de/sqliteodbc/)
+If you don't have an SQLite ODBC driver already, you can download one [from GitHub here](https://github.com/Access-Abraxas/Access-Link-To-SQLite-GUI-Add-In/tree/main/ODBC)
 
-- The 64-Bit SQLite ODBC driver can be [downloaded here](http://www.ch-werner.de/sqliteodbc/sqliteodbc_w64.exe)
-- The 32-Bit SQLite ODBC driver can be [downloaded here](http://www.ch-werner.de/sqliteodbc/sqliteodbc.exe)
+- The 64-Bit SQLite ODBC driver can be [downloaded here](https://github.com/Access-Abraxas/Access-Link-To-SQLite-GUI-Add-In/blob/main/ODBC/sqliteodbc_w64.exe)
+- The 32-Bit SQLite ODBC driver can be [downloaded here](https://github.com/Access-Abraxas/Access-Link-To-SQLite-GUI-Add-In/blob/main/ODBC/sqliteodbc.exe)
 
 NOTE: ODBC drivers should match the same architecture as Microsoft Access.  So if you have 64-bit Access, use the 64-bit ODBC driver.
+
+Christian's original site providing links to download the SQLite ODBC drivers can be [seen here](http://www.ch-werner.de/sqliteodbc/).
 
 
 
