@@ -32,6 +32,14 @@ Option Compare Database
 Option Explicit
 
 
+' Determine it this build of Access is 64-bit
+#If Win64 Then
+    Const g_Is64Bit = True
+#Else
+    Const g_Is64Bit = False
+#End If
+
+
 
 Private Sub btnAbout_Click()
 On Error GoTo HandleErrors
@@ -178,7 +186,7 @@ On Error GoTo HandleErrors
     While (Not rs.EOF) And (Not rs.BOF)
         sTables = rs.Fields(0)
         If Me.chkIgnore Then
-            If (sTables <> "sqlite_sequence") Then ' Ignore the "sqlite_sequence"
+            If (sTables <> "sqlite_sequence") Then ' Ignore the "sqlite_sequence" table
                 Me.ltsTablesInDb.AddItem sTables
             End If
         Else
@@ -317,11 +325,25 @@ End Sub
 
 
 
-Private Sub FormHeader_Click()
+Private Sub chkArch_AfterUpdate()
 On Error GoTo HandleErrors
 
-    DoCmd.OpenForm "frmAbout"
-    
+    SetDiplayedLinks
+
+ExitMethod:
+    Exit Sub
+HandleErrors:
+    MsgBox "Error: " & Err.Description, vbCritical, "Error " & Nz(Err.Number)
+    Resume ExitMethod
+End Sub
+
+
+
+Private Sub Form_Open(Cancel As Integer)
+On Error GoTo HandleErrors
+
+    SetDiplayedLinks
+
 ExitMethod:
     Exit Sub
 HandleErrors:
@@ -336,7 +358,7 @@ On Error GoTo HandleErrors
 
     Dim oShell As Object
     Set oShell = CreateObject("Shell.Application")
-    oShell.Open CVar("http://" & Me.txtLink)
+    oShell.Open CVar("https://github.com/Access-Abraxas/Access-Link-To-SQLite-GUI-Add-In/tree/main/ODBC")
     
 ExitMethod:
     Exit Sub
@@ -352,7 +374,7 @@ On Error GoTo HandleErrors
 
     Dim oShell As Object
     Set oShell = CreateObject("Shell.Application")
-    oShell.Open CVar("http://www.ch-werner.de/sqliteodbc/sqliteodbc_w64.exe")
+    oShell.Open CVar("https://github.com/Access-Abraxas/Access-Link-To-SQLite-GUI-Add-In/raw/refs/heads/main/ODBC/sqliteodbc_w64.exe")
     
 ExitMethod:
     Exit Sub
@@ -368,7 +390,7 @@ On Error GoTo HandleErrors
 
     Dim oShell As Object
     Set oShell = CreateObject("Shell.Application")
-    oShell.Open CVar("http://www.ch-werner.de/sqliteodbc/sqliteodbc.exe")
+    oShell.Open CVar("https://github.com/Access-Abraxas/Access-Link-To-SQLite-GUI-Add-In/raw/refs/heads/main/ODBC/sqliteodbc.exe")
     
 ExitMethod:
     Exit Sub
@@ -377,3 +399,25 @@ HandleErrors:
     Resume ExitMethod
 End Sub
 
+
+
+Private Sub SetDiplayedLinks()
+On Error GoTo HandleErrors
+
+    If chkArch Then
+        If g_Is64Bit Then
+            Me.txtLinkx86Driver.Visible = False
+        Else
+            Me.txtLinkx64Driver.Visible = False
+        End If
+    Else
+        Me.txtLinkx64Driver.Visible = True
+        Me.txtLinkx86Driver.Visible = True
+    End If
+
+ExitMethod:
+    Exit Sub
+HandleErrors:
+    MsgBox "Error: " & Err.Description, vbCritical, "Error " & Nz(Err.Number)
+    Resume ExitMethod
+End Sub

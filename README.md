@@ -1,10 +1,12 @@
 # The Microsoft Access Link To SQLite Table GUI Add-In
 
-This 100% Free, Open Source Microsoft Access Link-to-SQLite GUI Add-In tool was designed to help create MS Access linked tables to any SQLite database file.  This tool provides a GUI for connecting to the SQLite database and allows the user to select exactly which SQLite tables to link to your Access database.  This tool can link Access databases to tables in .sqlite, .sqlite3, .db, .db3, .s3db, and .sl3 database file types. The tool creates the connection string to the SQLite db, creates the Access linked tables, and then establishes the connection to those SQLite tables in your Access database.  Once the SQLite tables are linked in your Access database, you will see them in the NavPane as normal linked tables, and you will be able to add, query, edit, and delete records in your SQLite database directly from your Microsoft Access database application.  
+This 100% Free, Open Source Microsoft Access Link-to-SQLite GUI Add-In tool was designed to help create MS Access linked tables to any SQLite database file.  This tool provides a GUI for connecting to the SQLite database and allows the user to select exactly which SQLite tables to link to your Access database.  This tool can link Access databases to tables in .sqlite, .sqlite3, .db, .db3, .s3db, and .sl3 (and probably more!) database file types. 
+
+The Access Link-To-SQLite tool creates the connection string to the SQLite db, creates the Access linked tables in your local database, and then establishes the connection to those SQLite tables.  Once the SQLite tables are linked in your Access database, you will see them in the NavPane as normal linked tables, and you will be able to add, edit, query, and delete records in your SQLite database directly from your Microsoft Access database application.  
 
 *** NOTE ***
 
-Using the Access Link-to-SQLite Add-In tool requires a ODBC driver for SQLite installed on your system.  See the "Where to Download" below for information about where to get a SQLite ODBC driver for Windows, if you don't have one already. 
+Using the Access Link-to-SQLite Add-In tool requires a ODBC driver for SQLite installed on your system.  It also requires that the ODBC driver is the same architecture as Microsoft Access on your system, so if you're running 32-bit Access, you'll need a 32-bit ODBC driver, and if you're running 64-bit Access, you'll need a 64-bit ODBC driver, both of which are available in this package.  See the "Where to Download" section below for more information about where to get the correct SQLite ODBC driver for Windows needed for your version of Microsoft Access, if you don't have a SQLite ODBC driver already. 
 
 
 ## Screenshots of the Access Link-to-SQLite GUI Add-In Tool:
@@ -23,8 +25,8 @@ Or download the latest Stable Release package here: [Latest Full Release Package
 
 If you don't have an SQLite ODBC driver already, you can download one [from GitHub here](https://github.com/Access-Abraxas/Access-Link-To-SQLite-GUI-Add-In/tree/main/ODBC)
 
-- The 64-Bit SQLite ODBC driver can be [downloaded here](https://github.com/Access-Abraxas/Access-Link-To-SQLite-GUI-Add-In/raw/refs/heads/main/ODBC/sqliteodbc_w64.exe)
-- The 32-Bit SQLite ODBC driver can be [downloaded here](https://github.com/Access-Abraxas/Access-Link-To-SQLite-GUI-Add-In/raw/refs/heads/main/ODBC/sqliteodbc.exe)
+- The 64-bit SQLite ODBC driver can be [downloaded here](https://github.com/Access-Abraxas/Access-Link-To-SQLite-GUI-Add-In/raw/refs/heads/main/ODBC/sqliteodbc_w64.exe)
+- The 32-bit SQLite ODBC driver can be [downloaded here](https://github.com/Access-Abraxas/Access-Link-To-SQLite-GUI-Add-In/raw/refs/heads/main/ODBC/sqliteodbc.exe)
 
 NOTE: ODBC drivers should match the same architecture as Microsoft Access.  So if you have 64-bit Access, use the 64-bit ODBC driver.
 
@@ -102,11 +104,11 @@ Here is a list of some resources available for this project:
 
 
 
-## Project Contributors and Credits:
+## Project Contributors and Acknowledgements:
 
-A **GREAT BIG THANKS** to the following contributors to this project:
+A **GREAT BIG "THANKS"** to the following contributors to this project:
 
-1. [The Microsoft Access Team](https://www.microsoft.com/en-us/microsoft-365/access) - A HUGE THANKS for creating the most AMAZING and versatile database product ever to exist, it has changed my life FOREVER!!!
+1. [The Microsoft Access Team](https://www.microsoft.com/en-us/microsoft-365/access) - A HUGE THANKS for creating the most **AMAZING** and **VERSATILE** database product ever to exist, it has changed my life FOREVER!!!
 
 2. [The SQLite Team](https://sqlite.org/crew.html) - Another HUGE THANKS for creating such an AMAZING database system too, a system which is up and coming in this brave new world and I'm loving it!
 
