@@ -1,10 +1,11 @@
 # The Microsoft Access Link To SQLite Table GUI Add-In
 
-This 100% Free, Open Source Microsoft Access Link-to-SQLite GUI Add-In tool was designed to help create MS Access linked tables to any SQLite database file.  This tool provides a GUI for connecting to the SQLite database and allows the user to select exactly which SQLite tables to link to your Access database.  This tool can link to tables in .sqlite, .sqlite3, .db, .db3, .s3db, and .sl3 database file types. The tool creates the connection string to SQLite, creates the linked-tables, and then establishes the connection to those SQLite tables in you Access database.  Once the SQLite tables are linked in your Access database, you will see them in the NavPane as normal linked tables, and you will be able to add, query, edit, and delete records in your SQLite database directly from your Microsoft Access database application.  
+This 100% Free, Open Source Microsoft Access Link-to-SQLite GUI Add-In tool was designed to help create MS Access linked tables to any SQLite database file.  This tool provides a GUI for connecting to the SQLite database and allows the user to select exactly which SQLite tables to link to your Access database.  This tool can link Access databases to tables in .sqlite, .sqlite3, .db, .db3, .s3db, and .sl3 database file types. The tool creates the connection string to the SQLite db, creates the Access linked tables, and then establishes the connection to those SQLite tables in your Access database.  Once the SQLite tables are linked in your Access database, you will see them in the NavPane as normal linked tables, and you will be able to add, query, edit, and delete records in your SQLite database directly from your Microsoft Access database application.  
 
 *** NOTE ***
 
 Using the Access Link-to-SQLite Add-In tool requires a ODBC driver for SQLite installed on your system.  See the "Where to Download" below for information about where to get a SQLite ODBC driver for Windows, if you don't have one already. 
+
 
 ## Screenshots of the Access Link-to-SQLite GUI Add-In Tool:
 
@@ -115,7 +116,7 @@ A **GREAT BIG THANKS** to the following contributors to this project:
 
 5. [Crystal Long](https://msaccessgurus.com/) - Thanks for always being my biggest fan, especially when it comes to my work involving Microsoft Access!
 
-6. [George Hepworth](https://www.gpcdata.com/) - Thanks for always hosting the Users Group Meetings and for coming up with GREAT ideas for Access database applications.
+6. [George Hepworth](https://www.gpcdata.com/) - Thanks for always hosting the Access Users Group Meetings and for always coming up with GREAT ideas for Access database applications.
 
 7. [The Access Users Groups](https://accessusergroups.org/) - A HUGE THANKS to the Access Pacific and Access Express Australia groups for inspiring me to use Access more and for always giving me ideas for database apps to create! 
 
